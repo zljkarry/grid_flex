@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  color: #ffffff;
+}
+
+.top {
+  background-color: #2c3e50;
+  color: #ffffff;
+}
+
+.top .container {
+  width: 1173px;
+  height: 40px;
+  margin: auto auto;
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 120px 160px 220px 215px auto repeat(4, 40px);
+  place-items: center center;
+}
+
+.top .container li .special {
+  color: #1dd2af;
+}
+
+.top .container .one {
+  grid-column: 6/7;
+}
+
+.top .container .two {
+  grid-column: 7/8;
+}
+
+.top .container .three {
+  grid-column: 8/9;
+}
+
+.top .container .four {
+  grid-column: 9/10;
+}
+
+.bottom .container {
+  width: 1173px;
+  height: 95px;
+  margin: auto auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom .container .left {
+  font-size: 40px;
+}
+
+.bottom .container .left .special {
+  color: #1dd2af;
+}
+
+.bottom .container .right {
+  font-size: 18px;
+  color: #5d6e80;
+  display: flex;
+}
+
+.bottom .container .right li {
+  margin: auto 10px;
+}
+
+.bottom .container .right .special {
+  color: #1dd2af;
+}
+
+.bottom .container .right .special2 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 3px #2c3e50 solid;
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}

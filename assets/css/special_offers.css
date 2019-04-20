@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  color: #ffffff;
+}
+
+.smallcontainer {
+  margin-top: 85px;
+}
+
+.smallcontainer h6 {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.smallcontainer .one {
+  font-size: 25px;
+  color: #2c3e50;
+}
+
+.smallcontainer .two {
+  font-size: 16px;
+  color: #626262;
+}
+
+.pic {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pic div {
+  margin: auto 10px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic div > :first-child {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  color: #626262;
+  padding-left: 10%;
+}
+
+.pic div > :first-child :first-child {
+  font-size: 16px;
+}
+
+.pic div > :first-child :last-child {
+  font-size: 14px;
+}
+
+.pic div > :last-child {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  color: #9fb0c0;
+  font-size: 25px;
+  align-self: center;
+}
+
+.pic div .bug {
+  color: #9fb0c0;
+}
+
+.pic .one {
+  background-image: url("../images/2_1.png");
+  background-size: 100% 100%;
+  width: 245px;
+  height: 260px;
+  margin-left: 0;
+  opacity: 0.5;
+}
+
+.pic .one ul {
+  padding-left: 0;
+}
+
+.pic .two {
+  background-image: url("../images/2_2.png");
+  background-size: 100% 100%;
+  width: 278px;
+  height: 260px;
+}
+
+.pic .three {
+  background-image: url("../images/2_3.png");
+  background-size: 100% 100%;
+  width: 278px;
+  height: 310px;
+  align-self: start;
+}
+
+.pic .three .special {
+  color: #fff;
+}
+
+.pic .three .special2 {
+  color: #8394a3;
+}
+
+.pic .four {
+  background-image: url("../images/2_4.png");
+  background-size: 100% 100%;
+  width: 280px;
+  height: 260px;
+}
+
+.pic .five {
+  background-image: url("../images/2_5.png");
+  background-size: 100% 100%;
+  width: 277px;
+  height: 262px;
+}
+
+.pic .six {
+  background-image: url("../images/2_6.png");
+  background-size: 100% 100%;
+  width: 247px;
+  height: 260px;
+  margin-right: 0;
+  opacity: 0.5;
+}

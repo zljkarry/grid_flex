@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+@import"common.scss";
+.search{
+    background-color: $themecolor2;
+
+.container{
+    width: 1173px;
+        height: 100px;
+        margin: auto auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            font-size: 25px;
+            .special{
+            color: #9fb0c0;
+            }
+            .special2{
+                color: #fff;
+            }
+           
+        }
+        .searchinput{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .special{
+                margin: auto 20px;
+                font-size: 22px;
+            }
+            .divinput{
+                width: 325px;
+                height: 45px;
+                background-color: #fff;
+                background-repeat: no-repeat;
+                background-position: 95% center;
+                text-align: left;
+                padding-left: 10px;
+                line-height: 45px;
+                color: #8a8a8a;
+                font-size: 20px;
+            }
+            .oneinput{
+                
+                background-image: url("../images/earth.png");
+                
+            }
+            .twoinput{
+                
+                background-image: url("../images/book.png");
+                
+            }
+        }
+        .searchbtn{
+            width: 100px;
+            height: 45px;
+            background-color: $themecolor;
+            color: #fff;
+            text-align: center;
+            line-height: 45px;
+            font-size: 20px;
+        }
+}
+}

@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  color: #ffffff;
+}
+
+.banner {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner .left {
+  width: 80px;
+  height: 80px;
+  background-color: #5c737e;
+  color: #5c737e;
+  text-align: center;
+  line-height: 80px;
+  font-size: 50px;
+}
+
+.banner .right {
+  width: 80px;
+  height: 80px;
+  background-color: #1dd2af;
+  color: #ffffff;
+  text-align: center;
+  line-height: 80px;
+  font-size: 50px;
+}
+
+.banner .center {
+  color: #ffffff;
+}
+
+.banner .center h6 {
+  text-align: center;
+}
+
+.banner .center .big {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.banner .center .small {
+  font-size: 25px;
+  margin-bottom: 45px;
+}
+
+.banner .center .btns {
+  display: flex;
+  justify-content: center;
+}
+
+.banner .center .btns .l {
+  background-color: #1dd2af;
+  border-radius: 5px;
+  width: 225px;
+  height: 60px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  margin: 10px;
+}
+
+.banner .center .btns .r {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 3px #ffffff solid;
+  width: 225px;
+  height: 60px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  margin: 10px;
+}

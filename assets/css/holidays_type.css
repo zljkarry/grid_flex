@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  color: #ffffff;
+}
+
+.holidays_type {
+  margin-top: 100px;
+  width: 100%;
+  height: 520px;
+  background-image: url("../images/3.png");
+}
+
+.holidays_type .container {
+  width: 1173px;
+  height: 520px;
+  margin: auto auto;
+  padding-top: 75px;
+}
+
+.holidays_type .container .one {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.holidays_type .container .two {
+  font-size: 16px;
+  color: #9eafc0;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.holidays_type .container .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.holidays_type .container .icons div > :first-child {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px #fff solid;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.holidays_type .container .icons div > :last-child {
+  font-size: 20px;
+  color: #9eafc0;
+  text-align: center;
+  line-height: 70px;
+}
+
+.holidays_type .container .icons div .special {
+  color: #1dd2af;
+}
+
+.holidays_type .container .icons div .iconone {
+  background-image: url("../images/3_1.png");
+}
+
+.holidays_type .container .icons div .icontwo {
+  background-image: url("../images/3_2.png");
+}
+
+.holidays_type .container .icons div .iconthree {
+  background-image: url("../images/3_3.png");
+  border: 3px #1dd2af solid;
+}
+
+.holidays_type .container .icons div .iconfour {
+  background-image: url("../images/3_4.png");
+}
+
+.holidays_type .container .icons div .iconfive {
+  background-image: url("../images/3_5.png");
+}
+
+.holidays_type .container .icons div .iconsix {
+  background-image: url("../images/3_6.png");
+}
